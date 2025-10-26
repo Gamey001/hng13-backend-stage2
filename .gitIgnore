@@ -45,3 +45,6 @@ Thumbs.db
 .DS_Store
 
 railway.json
+*.db
+*.sqlite3
+cache/
