@@ -1,15 +1,47 @@
-# .gitignore
+# === Python ===
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
+
+# === Virtual environments ===
 venv/
-.venv/
 env/
 ENV/
+.venv/
+pip-wheel-metadata/
+
+# === Environment variables ===
 .env
-*.db
-*.sqlite3
-cache/
+*.env
+
+# === Build / Packaging ===
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
 .DS_Store
+
+# === Logs & Debug ===
+*.log
+logs/
+debug.log
+
+# === Bytecode cache ===
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+coverage/
+htmlcov/
+
+# === OS files ===
+Thumbs.db
+.DS_Store
+
+railway.json
